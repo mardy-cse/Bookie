@@ -1,0 +1,82 @@
+name: bookiee
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  pin_code_fields: ^8.0.1
+  flutter:
+    sdk: flutter
+  pdf: ^3.10.8
+  syncfusion_flutter_pdfviewer: ^24.2.8
+#  cloud_firestore: ^4.17.2
+
+  firebase_core: ^2.25.4
+  firebase_ui_auth: ^1.13.1
+  firebase_auth: ^4.19.2
+  cloud_firestore: ^4.17.0
+  google_sign_in: ^6.2.1
+  get: ^4.3.8
+
+  line_awesome_flutter: ^2.0.0
+  flutter_screenutil: ^5.9.0
+  animated_theme_switcher: ^2.0.10
+  easy_pdf_viewer: ^1.0.8
+
+  cupertino_icons: ^1.0.2
+  curved_navigation_bar: ^1.0.3
+  dynamic_curved_navigation_bar: ^0.0.2
+
+  dynamic_height_grid_view: ^0.0.4
+  flutter_grid_button: ^2.1.0
+
+  flutter_native_splash: ^2.3.10
+
+  dropdown_textfield: ^1.0.8
+  drop_down_search_field: ^1.0.3
+  dropdown_button2: ^2.3.9
+
+  carousel_slider: ^4.2.1
+  flutter_reorderable_grid_view: ^4.0.0
+  griddelegate_fixedcrossaxiscount: ^0.0.1
+  provider: ^6.1.2
+  device_info_plus: ^9.1.2
+  audioplayers: ^5.2.1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/books.png
+    - assets/login_screen_pic.png
+    - assets/User_Avatar.png
+    - assets/icon/actionbook_icon.png
+    - assets/icon/audiobook_icon.png
+    - assets/icon/classics_icon.png
+    - assets/icon/fiction_icon.png
+    - assets/icon/Non-fictionbook_icon.png
+    - assets/icon/google_icon.png
+    - assets/icon/novelbook_icon.png
+    - assets/icon/romancebook_icon.png
+    - assets/icon/poetry_icon.png
+    - assets/icon/crimefiction_book_icon.png
+    - assets/icon/thrillerbook_icon.png
+    - assets/books/The_Help.jpg
+    - assets/books/Dopamine-Detox.jpg
+    - assets/books/Hopeless.jpg
+    - assets/books/brida.jpg
+    - assets/books/The alchemist.jpg
+    - assets/books/like the following river.jpg
+    - assets/google.png
+
+
+
